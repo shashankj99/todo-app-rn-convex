@@ -54,7 +54,7 @@ export const createHomeStyles = (colors: ColorScheme) => {
       color: colors.textMuted,
     },
     progressContainer: {
-      marginTop: 8,
+      marginTop: 6,
     },
     progressBarContainer: {
       flexDirection: "row",
