@@ -126,7 +126,7 @@ export const createHomeStyles = (colors: ColorScheme) => {
       justifyContent: "center",
     },
     todoItemWrapper: {
-      marginVertical: 12,
+      marginVertical: 10,
     },
     todoItem: {
       flexDirection: "row",
@@ -144,7 +144,6 @@ export const createHomeStyles = (colors: ColorScheme) => {
     },
     checkbox: {
       marginRight: 16,
-      marginTop: 2,
     },
     checkboxInner: {
       width: 32,
@@ -161,8 +160,8 @@ export const createHomeStyles = (colors: ColorScheme) => {
       fontSize: 17,
       lineHeight: 24,
       fontWeight: "500",
-      marginBottom: 16,
       color: colors.text,
+      marginTop: 4,
     },
     todoActions: {
       flexDirection: "row",
